@@ -1,0 +1,9 @@
+package com.FactoryPattern;
+
+public class Rectangle implements Shape {
+
+    @Override
+    public void draw() {
+        System.out.println("is "+this.getClass().getName());
+    }
+}
